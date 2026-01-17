@@ -18,20 +18,9 @@
 Follow these steps to get the project running locally:
 
 ### 1. Prerequisite
-Ensure you have **Node.js** installed on your machine.
+ python -m http.server 8003
 
-### 2. Install Dependencies
-Open your terminal in the project directory and run:
-```bash
-npm install
-```
-
-### 3. Run Development Server
-Start the local development server:
-```bash
-npm run dev
-```
-Access the application at the URL provided in the terminal (usually `http://localhost:5173`).
+Access the application at the URL provided in the terminal (usually `http://localhost:8003`).
 
 ---
 

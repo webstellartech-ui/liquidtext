@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+    overflow-x: hidden;
+    font-family: 'Inter', sans-serif;
+}
+
+#canvas-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+}
+
+.scroll-spacer {
+    height: 200vh;
+    width: 100%;
+    position: relative;
+    z-index: 0;
+}
